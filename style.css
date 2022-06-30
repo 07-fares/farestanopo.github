@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* style dasar untuk seluruh halaman */
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    background-image: url(img/double-bubble.webp);
+    color: #333;
+}
+
+.container {
+    /* lebar  */
+    width: 800px; 
+    /* tulisan di tengah */
+    margin: auto;
+    /* warna container */
+    background: #fff;
+}
+/* style untuk header */
+.header {
+    /* jarak tulisan antara container dan tulisan */
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li {
+    /* membuat urutan menjadi horisontal */
+    display: inline-block;
+    /* jarak dari atas */
+    margin-top: 20px;
+    /* jarak horisontal */
+    margin-right: 20px;
+}
+
+.header a {
+    /* menghilangkan garis bawa pada link */
+    text-decoration: none;
+    /* warna pada tulisan */
+    color: salmon;
+
+}
+/* memberikan warna lain saat mouse berada diatas tulisan */
+.header a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+/* akhir style header */
+
+/* style untuk banner */
+.hero {
+    height: 280px;
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+    background-position: 0 -180px;
+    border-top: 5px solid salmon;
+    border-bottom: 5px solid lightskyblue;
+}
+/* akhir style untuk banner */
+
+/* style untuk content */
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content .penulis a {
+    color: salmon;
+    text-decoration: none;
+}
+
+.content .penulis {
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+/* akhir style content */
+
+/* style untuk footer */
+.footer {
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}
+/* akhir style footer */
